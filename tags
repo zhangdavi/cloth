@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActiveSupport	.\test\test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	.\config\application.rb	/^  class Application < Rails::Application$/;"	c	class:Cloth
+ApplicationController	.\app\controllers\application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	.\app\helpers\application_helper.rb	/^module ApplicationHelper$/;"	m
+Cloth	.\config\application.rb	/^module Cloth$/;"	m
+CreateUsers	.\db\migrate\20150602074605_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+User	.\app\models\user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserController	.\app\controllers\users_controller.rb	/^class UserController < ApplicationController$/;"	c
+UserTest	.\test\models\user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersControllerTest	.\test\controllers\users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersHelper	.\app\helpers\users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelperTest	.\test\helpers\users_helper_test.rb	/^class UsersHelperTest < ActionView::TestCase$/;"	c
+down	.\db\migrate\20150602074605_create_users.rb	/^  def self.down$/;"	F
+has_password?	.\app\models\user.rb	/^	def  has_password?(submitted_password)$/;"	f	class:User
+index	.\app\controllers\users_controller.rb	/^  def index$/;"	f	class:UserController
+login	.\app\controllers\users_controller.rb	/^  def login$/;"	f	class:UserController
+logout	.\app\controllers\users_controller.rb	/^  def logout$/;"	f	class:UserController
+signup	.\app\controllers\users_controller.rb	/^  def signup$/;"	f	class:UserController
+up	.\db\migrate\20150602074605_create_users.rb	/^  def self.up$/;"	F	class:CreateUsers
